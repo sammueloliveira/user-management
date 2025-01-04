@@ -1,0 +1,24 @@
+# Ignore .NET Core build results
+bin/
+obj/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files for Windows
+Thumbs.db
+Desktop.ini
+
+# JetBrains Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider project settings
+.idea/
+
+# ASP.NET Core development settings
+appsettings.Development.json
