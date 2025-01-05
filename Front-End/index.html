@@ -16,31 +16,55 @@
           <input type="hidden" id="userId" />
           <div class="form-group">
             <label for="firstName">Primeiro Nome:</label>
-            <input type="text" id="firstName" required />
+            <input type="text" id="firstName" required maxlength="50" />
           </div>
           <div class="form-group">
             <label for="lastName">Último Nome:</label>
-            <input type="text" id="lastName" required />
+            <input type="text" id="lastName" required maxlength="50" />
           </div>
           <div class="form-group">
             <label for="email">Email:</label>
-            <input type="email" id="email" required />
+            <input type="email" id="email" required maxlength="100" />
           </div>
           <div class="form-group">
             <label for="gender">Gênero:</label>
-            <input type="text" id="gender" required />
+            <input type="text" id="gender" required maxlength="10" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" maxlength="15" />
+          </div>
+          <div class="form-group">
+            <label for="cell">Celular:</label>
+            <input type="tel" id="cell" maxlength="15" />
+          </div>
+          <div class="form-group">
+            <label for="streetName">Rua:</label>
+            <input type="text" id="streetName" required maxlength="100" />
+          </div>
+          <div class="form-group">
+            <label for="streetNumber">Número:</label>
+            <input type="number" id="streetNumber" required />
+          </div>
+          <div class="form-group">
+            <label for="postCode">CEP:</label>
+            <input type="text" id="postCode" required maxlength="10" />
           </div>
           <div class="form-group">
             <label for="city">Cidade:</label>
-            <input type="text" id="city" required />
+            <input type="text" id="city" required maxlength="50" />
+          </div>
+          <div class="form-group">
+            <label for="state">Estado:</label>
+            <input type="text" id="state" required maxlength="50" />
           </div>
           <div class="form-group">
             <label for="country">País:</label>
-            <input type="text" id="country" required />
+            <input type="text" id="country" required maxlength="50" />
           </div>
           <div class="form-group">
             <label for="profilePicture">URL da Imagem de Perfil:</label>
-            <input type="text" id="profilePicture" />
+            <input type="url" id="profilePicture" />
           </div>
           <button type="submit">Salvar Usuário</button>
         </form>
@@ -48,18 +72,7 @@
 
       <h2>Usuários Cadastrados</h2>
       <table id="userTable">
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Email</th>
-            <th>Cidade</th>
-            <th>Gênero</th>
-            <th>País</th>
-            <th>Imagem</th>
-            <th>Ações</th>
-          </tr>
-        </thead>
-        <tbody id="userList"></tbody>
+        <div id="userList"></div>
       </table>
     </div>
 

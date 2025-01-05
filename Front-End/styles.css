@@ -1,84 +1,173 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  table,
-  th,
-  td {
-    border: 1px solid #ddd;
-  }
-  
-  th,
-  td {
-    padding: 10px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f4f4f4;
-  }
-  
-  button {
-    background-color: #4caf50;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  .edit-btn,
-  .delete-btn {
-    background-color: #ffa500;
-  }
-  
-  .delete-btn {
-    background-color: #f44336;
-  }
-  
-  .form-group {
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"],
-  input[type="email"] {
-    width: 100%;
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .form-container {
-    margin-top: 20px;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+
+.form-container {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#userTable {
+  width: 100%;
+  margin-top: 20px;
+ 
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: #ffa500;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="hidden"] {
+  display: none;
+}
+
+label {
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#userList img {
+  border-radius: 50%;
+}
+
+#userList .edit-btn,
+#userList .delete-btn {
+  margin: 5px;
+}
+
+#formTitle {
+  text-align: center;
+}
+
+#userTable th,
+#userTable td {
+  text-align: center;
+}
+
+#userTable tbody tr {
+  text-align: left;
+}
+
+.user-table-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.container h1,
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.user-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+table td,
+table th {
+  padding: 12px;
+}
+
+#userList td img {
+  max-width: 50px;
+  border-radius: 50%;
+}
