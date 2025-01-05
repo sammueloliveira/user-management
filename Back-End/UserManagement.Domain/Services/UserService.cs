@@ -33,13 +33,21 @@ namespace UserManagement.Domain.Services
                 existingUser.Email = user.Email;
                 existingUser.Gender = user.Gender;
                 existingUser.City = user.City;
+                existingUser.StreetName = user.StreetName; 
+                existingUser.StreetNumber = user.StreetNumber; 
+                existingUser.State = user.State;
                 existingUser.Country = user.Country;
+                existingUser.PostCode = user.PostCode;
+                existingUser.Phone = user.Phone ?? string.Empty;
+                existingUser.Cell = user.Cell;
                 existingUser.ProfilePicture = user.ProfilePicture;
 
+                
                 await _user.Update(existingUser);
             }
-
         }
+
+
 
         public async Task<List<User>> FetchAndSaveRandomUsers(int count)
         {
@@ -54,10 +62,17 @@ namespace UserManagement.Domain.Services
                 LastName = r.Name.Last,
                 Email = r.Email,
                 Gender = r.Gender,
+                Phone = r.Phone,
+                Cell =  r.Cell,
                 City = r.Location.City,
+                StreetName = r.Location.Street?.Name,
+                StreetNumber = r.Location.Street?.Number ?? 0,
+                State = r.Location.State,
                 Country = r.Location.Country,
+                PostCode =  r.Location.PostCode,
                 ProfilePicture = r.Picture.Large
             }).ToList();
+
 
             foreach (var user in randomUsers)
             {

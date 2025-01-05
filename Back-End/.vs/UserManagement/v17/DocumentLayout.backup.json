@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Samuel\\Documents\\user-management\\Back-End\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4E1B791-0B06-4F7F-A13C-1905E51C2ED1}|UserManagement.APIs\\UserManagement.APIs.csproj|c:\\users\\samuel\\documents\\user-management\\back-end\\usermanagement.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A4E1B791-0B06-4F7F-A13C-1905E51C2ED1}|UserManagement.APIs\\UserManagement.APIs.csproj|solutionrelative:usermanagement.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9DB61817-4837-4127-BFCA-388FDC807904}|UserManagement.Domain\\UserManagement.Domain.csproj|c:\\users\\samuel\\documents\\user-management\\back-end\\usermanagement.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DB61817-4837-4127-BFCA-388FDC807904}|UserManagement.Domain\\UserManagement.Domain.csproj|solutionrelative:usermanagement.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\user-management\\Back-End\\UserManagement.APIs\\appsettings.json",
-              "RelativeDocumentMoniker": "UserManagement.APIs\\appsettings.json",
-              "ToolTip": "C:\\Users\\Samuel\\Documents\\user-management\\Back-End\\UserManagement.APIs\\appsettings.json",
-              "RelativeToolTip": "UserManagement.APIs\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-04T18:14:17.869Z",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\user-management\\Back-End\\UserManagement.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "UserManagement.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Samuel\\Documents\\user-management\\Back-End\\UserManagement.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "UserManagement.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:04:04.241Z",
               "EditorCaption": ""
             }
           ]

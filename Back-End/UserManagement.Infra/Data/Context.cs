@@ -7,5 +7,7 @@ namespace UserManagement.Infra.Data
     {
         public Context(DbContextOptions<Context> options) : base(options) { }
         public DbSet<User> Users { get; set; }
+
+     
     }
 }
